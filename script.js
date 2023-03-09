@@ -61,8 +61,8 @@ function updateDOM() {
   form.onsubmit = handleFormSubmit;
   firstNameInput.oninput = handleNameChange;
   lastNameInput.oninput = handleNameChange;
-  firstNameInput.textContent = firstName;
-  lastNameInput.textContent = lastName;
+  firstNameInput.value = firstName;
+  lastNameInput.value = lastName;
   firstNameText.textContent = firstName;
   lastNameText.textContent = lastName;
 
