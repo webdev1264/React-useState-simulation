@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>React-useState-simulation</title>
+  </head>
+  <body>
+    <form id="form">
+      <label>
+        First name:
+        <b id="firstNameText">Jane</b>
+        <input
+          id="firstNameInput"
+          name="firstName"
+          value="Jane"
+          style="display: none"
+        />
+      </label>
+      <label>
+        Last name:
+        <b id="lastNameText">Jacobs</b>
+        <input
+          id="lastNameInput"
+          name="lastName"
+          value="Jacobs"
+          style="display: none"
+        />
+      </label>
+      <button type="submit" id="editButton">Edit Profile</button>
+      <p><i id="helloText">Hello, Jane Jacobs!</i></p>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
