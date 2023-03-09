@@ -61,7 +61,6 @@ function updateDOM() {
   form.onsubmit = handleFormSubmit;
   firstNameInput.oninput = handleNameChange;
   lastNameInput.oninput = handleNameChange;
-
   firstNameInput.textContent = firstName;
   lastNameInput.textContent = lastName;
   firstNameText.textContent = firstName;
@@ -80,9 +79,7 @@ function updateDOM() {
   }
 
   editButton.innerText = (isEditing ? "Save " : "Edit ") + "Profile";
-
   helloText.textContent = "Hello, " + firstName + " " + lastName + "!";
-
   currentHookIndex = 0;
 }
 
